@@ -1,0 +1,202 @@
+[
+  {
+    "country": "United States", 
+    "total_titles": 3690, 
+    "movies_count": 2752, 
+    "tv_count": 938, 
+    "movie_pct": 74.6, 
+    "tv_pct": 25.4, 
+    "median_movie_duration": 94.0, 
+    "single_season_pct": 53.0
+  }, 
+  {
+    "country": "India", 
+    "total_titles": 1046, 
+    "movies_count": 962, 
+    "tv_count": 84, 
+    "movie_pct": 92.0, 
+    "tv_pct": 8.0, 
+    "median_movie_duration": 126.5, 
+    "single_season_pct": 86.9
+  }, 
+  {
+    "country": "United Kingdom", 
+    "total_titles": 806, 
+    "movies_count": 534, 
+    "tv_count": 272, 
+    "movie_pct": 66.3, 
+    "tv_pct": 33.7, 
+    "median_movie_duration": 98.0, 
+    "single_season_pct": 60.3
+  }, 
+  {
+    "country": "Canada", 
+    "total_titles": 445, 
+    "movies_count": 319, 
+    "tv_count": 126, 
+    "movie_pct": 71.7, 
+    "tv_pct": 28.3, 
+    "median_movie_duration": 92.0, 
+    "single_season_pct": 34.9
+  }, 
+  {
+    "country": "France", 
+    "total_titles": 393, 
+    "movies_count": 303, 
+    "tv_count": 90, 
+    "movie_pct": 77.1, 
+    "tv_pct": 22.9, 
+    "median_movie_duration": 99.0, 
+    "single_season_pct": 60.0
+  }, 
+  {
+    "country": "Japan", 
+    "total_titles": 318, 
+    "movies_count": 119, 
+    "tv_count": 199, 
+    "movie_pct": 37.4, 
+    "tv_pct": 62.6, 
+    "median_movie_duration": 99.0, 
+    "single_season_pct": 64.8
+  }, 
+  {
+    "country": "Spain", 
+    "total_titles": 232, 
+    "movies_count": 171, 
+    "tv_count": 61, 
+    "movie_pct": 73.7, 
+    "tv_pct": 26.3, 
+    "median_movie_duration": 100.0, 
+    "single_season_pct": 60.7
+  }, 
+  {
+    "country": "South Korea", 
+    "total_titles": 231, 
+    "movies_count": 61, 
+    "tv_count": 170, 
+    "movie_pct": 26.4, 
+    "tv_pct": 73.6, 
+    "median_movie_duration": 111.0, 
+    "single_season_pct": 83.5
+  }, 
+  {
+    "country": "Germany", 
+    "total_titles": 226, 
+    "movies_count": 182, 
+    "tv_count": 44, 
+    "movie_pct": 80.5, 
+    "tv_pct": 19.5, 
+    "median_movie_duration": 101.0, 
+    "single_season_pct": 70.5
+  }, 
+  {
+    "country": "Mexico", 
+    "total_titles": 169, 
+    "movies_count": 111, 
+    "tv_count": 58, 
+    "movie_pct": 65.7, 
+    "tv_pct": 34.3, 
+    "median_movie_duration": 93.0, 
+    "single_season_pct": 62.1
+  }, 
+  {
+    "country": "China", 
+    "total_titles": 162, 
+    "movies_count": 114, 
+    "tv_count": 48, 
+    "movie_pct": 70.4, 
+    "tv_pct": 29.6, 
+    "median_movie_duration": 105.0, 
+    "single_season_pct": 83.3
+  }, 
+  {
+    "country": "Australia", 
+    "total_titles": 160, 
+    "movies_count": 94, 
+    "tv_count": 66, 
+    "movie_pct": 58.8, 
+    "tv_pct": 41.2, 
+    "median_movie_duration": 98.0, 
+    "single_season_pct": 57.6
+  }, 
+  {
+    "country": "Egypt", 
+    "total_titles": 117, 
+    "movies_count": 102, 
+    "tv_count": 15, 
+    "movie_pct": 87.2, 
+    "tv_pct": 12.8, 
+    "median_movie_duration": 101.5, 
+    "single_season_pct": 100.0
+  }, 
+  {
+    "country": "Turkey", 
+    "total_titles": 113, 
+    "movies_count": 83, 
+    "tv_count": 30, 
+    "movie_pct": 73.5, 
+    "tv_pct": 26.5, 
+    "median_movie_duration": 104.0, 
+    "single_season_pct": 70.0
+  }, 
+  {
+    "country": "Hong Kong", 
+    "total_titles": 105, 
+    "movies_count": 100, 
+    "tv_count": 5, 
+    "movie_pct": 95.2, 
+    "tv_pct": 4.8, 
+    "median_movie_duration": 101.5, 
+    "single_season_pct": 100.0
+  }, 
+  {
+    "country": "Nigeria", 
+    "total_titles": 103, 
+    "movies_count": 94, 
+    "tv_count": 9, 
+    "movie_pct": 91.3, 
+    "tv_pct": 8.7, 
+    "median_movie_duration": 104.5, 
+    "single_season_pct": 66.7
+  }, 
+  {
+    "country": "Italy", 
+    "total_titles": 100, 
+    "movies_count": 75, 
+    "tv_count": 25, 
+    "movie_pct": 75.0, 
+    "tv_pct": 25.0, 
+    "median_movie_duration": 99.0, 
+    "single_season_pct": 60.0
+  }, 
+  {
+    "country": "Brazil", 
+    "total_titles": 97, 
+    "movies_count": 66, 
+    "tv_count": 31, 
+    "movie_pct": 68.0, 
+    "tv_pct": 32.0, 
+    "median_movie_duration": 93.5, 
+    "single_season_pct": 74.2
+  }, 
+  {
+    "country": "Argentina", 
+    "total_titles": 91, 
+    "movies_count": 71, 
+    "tv_count": 20, 
+    "movie_pct": 78.0, 
+    "tv_pct": 22.0, 
+    "median_movie_duration": 94.0, 
+    "single_season_pct": 75.0
+  }, 
+  {
+    "country": "Belgium", 
+    "total_titles": 90, 
+    "movies_count": 78, 
+    "tv_count": 12, 
+    "movie_pct": 86.7, 
+    "tv_pct": 13.3, 
+    "median_movie_duration": 100.5, 
+    "single_season_pct": 58.3
+  }
+]

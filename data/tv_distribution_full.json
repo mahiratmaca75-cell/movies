@@ -1,0 +1,92 @@
+[
+  {
+    "season": 1, 
+    "season_label": "1. Sezon", 
+    "count": 1793, 
+    "percentage": 67.0
+  }, 
+  {
+    "season": 2, 
+    "season_label": "2. Sezon", 
+    "count": 425, 
+    "percentage": 15.9
+  }, 
+  {
+    "season": 3, 
+    "season_label": "3. Sezon", 
+    "count": 199, 
+    "percentage": 7.4
+  }, 
+  {
+    "season": 4, 
+    "season_label": "4. Sezon", 
+    "count": 95, 
+    "percentage": 3.6
+  }, 
+  {
+    "season": 5, 
+    "season_label": "5. Sezon", 
+    "count": 65, 
+    "percentage": 2.4
+  }, 
+  {
+    "season": 6, 
+    "season_label": "6. Sezon", 
+    "count": 33, 
+    "percentage": 1.2
+  }, 
+  {
+    "season": 7, 
+    "season_label": "7. Sezon", 
+    "count": 23, 
+    "percentage": 0.9
+  }, 
+  {
+    "season": 8, 
+    "season_label": "8. Sezon", 
+    "count": 17, 
+    "percentage": 0.6
+  }, 
+  {
+    "season": 9, 
+    "season_label": "9. Sezon", 
+    "count": 9, 
+    "percentage": 0.3
+  }, 
+  {
+    "season": 10, 
+    "season_label": "10. Sezon", 
+    "count": 7, 
+    "percentage": 0.3
+  }, 
+  {
+    "season": 11, 
+    "season_label": "11. Sezon", 
+    "count": 2, 
+    "percentage": 0.1
+  }, 
+  {
+    "season": 12, 
+    "season_label": "12. Sezon", 
+    "count": 2, 
+    "percentage": 0.1
+  }, 
+  {
+    "season": 13, 
+    "season_label": "13. Sezon", 
+    "count": 3, 
+    "percentage": 0.1
+  }, 
+  {
+    "season": 15, 
+    "season_label": "15. Sezon", 
+    "count": 2, 
+    "percentage": 0.1
+  }, 
+  {
+    "season": 17, 
+    "season_label": "17. Sezon", 
+    "count": 1, 
+    "percentage": 0.0
+  }
+]

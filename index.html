@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hollywood Hegemonyasından 90 Dakikalık Fabrikaya: Netflix'in 15 Yıllık Veri Hikâyesi</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="8.807 yapımdan oluşan Netflix arşivinin 15 yıllık analizi: Filmler neden 27 dakika kısaldı, dizilerin %67'si neden 2. sezonu göremiyor? İnteraktif scrollytelling veri hikâyesi.">
+  <meta name="author" content="Mahir">
+  
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mahir.github.io/netflix-scrollytelling/">
+  <meta property="og:title" content="Hollywood Hegemonyasından 90 Dakikalık Fabrikaya: Netflix'in 15 Yıllık Veri Hikâyesi">
+  <meta property="og:description" content="Arşiv 15 yılda patlarken filmler neden 27 dakika kısaldı, diziler neden tek sezona sıkıştı ve Hollywood tahtından nasıl indi? 8.807 yapımlık veri hikâyesi.">
+  <meta property="og:image" content="img/og_image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hollywood Hegemonyasından 90 Dakikalık Fabrikaya: Netflix Veri Hikâyesi">
+  <meta name="twitter:description" content="Netflix filmleri neden 27 dakika kısaldı ve dizilerin %67'si neden ilk sezonda bitiyor? İnteraktif veri hikâyesi.">
+  <meta name="twitter:image" content="img/og_image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Ana İçeriğe Doğrudan Atla</a>
+
+  <!-- ======================================================================
+       1. HERO BÖLÜMÜ
+       ====================================================================== -->
+  <header class="hero">
+    <div class="hero-pill">
+      <span>●</span> Veri Hikâyesi & İnteraktif Scrollytelling
+    </div>
+
+    <h1 class="hero-title">
+      Hollywood Hegemonyasından <br>
+      <span class="highlight">90 Dakikalık Fabrikaya:</span> <br>
+      Netflix Arşivi Küreselleşirken Nasıl Hızlı Tüketime Teslim Oldu?
+    </h1>
+
+    <p class="hero-subtitle">
+      15 Yıllık Dönüşümün Anatomisi: 8.807 Yapımlık Katalog Analiziyle Arşiv Büyürken 
+      Filmlerin Neden Kısaldığını, Dizilerin Neden Tek Sezona Sıkıştığını ve Küresel Üretimin Yükselişini Keşfedin.
+    </p>
+
+    <!-- Key Metrics in Hero -->
+    <div class="hero-kpis" role="region" aria-label="Anahtar Göstergeler">
+      <div class="kpi-card">
+        <span class="kpi-num">8.807</span>
+        <span class="kpi-label">İncelenen Yapım</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-num accent">-27 dk</span>
+        <span class="kpi-label">Film Süresi Düşüşü</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-num accent">%67,0</span>
+        <span class="kpi-label">1. Sezonda Biten Dizi</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-num">%58,1</span>
+        <span class="kpi-label">Uluslararası İçerik Payı</span>
+      </div>
+    </div>
+
+    <div class="hero-meta">
+      <span>👤 <strong>Mahir</strong></span>
+      <span>🎓 Büyük Veri Analistliği · Kullanıcı Arayüzü Tasarımı</span>
+      <span>📅 Ekim 2026</span>
+      <span>⏱️ ~7 Dakika Okuma</span>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Hikâyeye Başlamak İçin Aşağı Kaydırın</span>
+      <svg class="scroll-icon" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       2. BAĞLAM (CONTEXT) BÖLÜMÜ
+       ====================================================================== -->
+  <main id="main-content">
+    <section class="section-context">
+      <div class="container">
+        <div class="context-wrapper">
+          <div class="section-tag">Giriş ve Bağlam</div>
+          <h2 class="section-title">DVD Zarflarından Küresel Algoritmaya: Bir İçerik İmparatorluğu Nasıl Dönüştü?</h2>
+          
+          <p class="lead-p">
+            1997 yılında kırmızı posta zarflarıyla DVD kiralayarak yolculuğuna başlayan Netflix, bugün dünya genelinde 
+            260 milyondan fazla aboneye 190'ı aşkın ülkede eşzamanlı yayın yapan devasa bir dijital ekosistemdir. 
+            Ancak bu büyüme yalnızca sunuculardaki megabaytların artışından ibaret değildir; doğrudan <strong>izleme alışkanlıklarımızın, 
+            dikkat sürelerimizin ve bizzat sinema sanatının gramerinin yeniden yazılmasıdır.</strong>
+          </p>
+
+          <p>
+            Bu araştırmada, Kaggle üzerinde kamuya açık olarak yayımlanan ve platformdaki <strong>8.807 başlığı</strong> 
+            (6.131 Film ve 2.676 TV Dizisi) kapsayan veri seti temizlenerek derinlemesine analiz edildi. Amacımız sadece 
+            "Netflix'te kaç film var?" sorusunu sormak değil; platformun DVD kiralama mantığından orijinal üretim fabrikasına 
+            dönüşürken yapımların sürelerini, ömürlerini ve coğrafi merkezlerini nasıl kökten değiştirdiğini ortaya çıkarmaktır.
+          </p>
+
+          <div class="callout-box">
+            <p>
+              💡 <strong>Okuma Rehberi:</strong> Aşağı kaydırdıkça sağ tarafta yer alan etkileşimli grafik, 
+              hikâyenin her aşamasında biçim değiştirerek hipotezlerimizi adım adım test edecektir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. SCROLLYTELLING BÖLÜMÜ (EN AZ 6 ADIM & STICKY D3 GRAFİK)
+         ====================================================================== -->
+    <section class="section-scrolly" id="scrolly-section">
+      <div class="container">
+        <div class="scrolly-container">
+
+          <!-- Left: Scrolling narrative steps -->
+          <div class="scrolly-steps">
+            
+            <!-- Step 1 -->
+            <article class="step is-active" data-step="0">
+              <div class="step-card">
+                <span class="step-number">Adım 01 / 06</span>
+                <h3 class="step-title">Büyük Patlama: 2019'da Tek Yılda 2.016 Yeni İçerik</h3>
+                <p class="step-text">
+                  Netflix 2008 yılında kütüphanesine sadece 2 içerik ekleyerek streaming serüvenine adım atmıştı. 
+                  2015'e kadar yılda 100 içeriği dahi aşmayan sakin büyüme, <strong>2016'da 130 ülkeye eşzamanlı açılma hamlesiyle 
+                  yerini dikey bir sıçramaya bıraktı.</strong> 2019 yılında tek bir takvim yılında 2.016 başlık eklenerek 
+                  tüm zamanların yıllık arz rekoru kırıldı.
+                </p>
+                <div class="step-insight">
+                  <span>📌 2016'da küresel açılımla 429'a, 2019'da ise tarihi zirve olan 2.016 yapıma ulaşıldı.</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Step 2 -->
+            <article class="step" data-step="1">
+              <div class="step-card">
+                <span class="step-number">Adım 02 / 06</span>
+                <h3 class="step-title">Film Ağırlıklı Kütüphane, Dizi Odaklı Alışkanlık</h3>
+                <p class="step-text">
+                  Toplumsal algıda Netflix sıklıkla bir "dizi platformu" olarak tanımlanır. Oysa veriler kataloğun 
+                  <strong>%69,6'sının (6.131 yapım) filmlerden</strong>, yalnızca %30,4'ünün (2.676 yapım) dizilerden oluştuğunu 
+                  gösteriyor. Ancak diziler, 2015'ten 2020'ye kadar 5 kat hızla büyüyerek kullanıcıyı platforma kilitleyen (retention) 
+                  ve her hafta ekrana bağlayan asıl stratejik kaldıraç oldu.
+                </p>
+                <div class="step-insight">
+                  <span>📌 Arşivde her 1 diziye karşılık 2,3 adet film yer almaktadır.</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Step 3 -->
+            <article class="step" data-step="2">
+              <div class="step-card">
+                <span class="step-number">Adım 03 / 06</span>
+                <h3 class="step-title">Süre Paradoksu: Filmler 20 Yılda Tam 27 Dakika Kısaldı</h3>
+                <p class="step-text">
+                  İşte en çarpıcı bulgu: 2002 yılında üretilmiş Netflix filmlerinin ortalama süresi <strong>119,5 dakikaydı</strong>. 
+                  2020 yapımlarında ise bu değer <strong>92,1 dakikaya (medyan: 95 dk)</strong> geriledi! 
+                  Akıllı telefon bildirimleri, daralan dikkat süreleri ve Netflix'in algoritmik "tamamlama oranı" metriği 
+                  (izleyicinin filmi yarıda bırakma korkusu), sinemayı 90 dakikalık kompakt hap formatlara hapsetti.
+                </p>
+                <div class="step-insight">
+                  <span>📉 2002'den 2020'ye ortalama film süresi tam 27,4 dakika kısaldı!</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Step 4 -->
+            <article class="step" data-step="3">
+              <div class="step-card">
+                <span class="step-number">Adım 04 / 06</span>
+                <h3 class="step-title">"Tek Sezon Laneti": Dizilerin %67'si 2. Sezonu Göremiyor</h3>
+                <p class="step-text">
+                  Platformdaki 2.676 TV dizisinin tam <strong>%67,0'ı (1.793 dizi) yalnızca ilk sezondan ibarettir!</strong> 
+                  İkinci sezona geçebilenlerin oranı %15,9'a, 3. sezona ulaşabilenler ise sadece %7,4'e çakılmaktadır. 
+                  Netflix'in acımasız algoritması için yeni bir mini dizi başlatıp yeni abone çekmek, var olan dizinin 
+                  artan oyuncu ve prodüksiyon sözleşmelerini karşılamaktan çok daha karlı görülmektedir.
+                </p>
+                <div class="step-insight">
+                  <span>⚠️ Her 3 diziden 2'si başladığı yerde bitiyor; 5+ sezonluk diziler sadece %3,4!</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Step 5 -->
+            <article class="step" data-step="4">
+              <div class="step-card">
+                <span class="step-number">Adım 05 / 06</span>
+                <h3 class="step-title">Hollywood Tahtından İndi: İçeriklerin %58'i Artık Küresel</h3>
+                <p class="step-text">
+                  2015 yılında Netflix'e eklenen içeriklerin <strong>%69,5'i ABD menşeiliydi</strong>. 
+                  Ancak şirketin "yerel üret, küreselde tüket" stratejisiyle Hindistan, İngiltere, Güney Kore, 
+                  İspanya ve Türkiye'ye doğrudan milyarlarca dolar yatırması dengeleri tersine çevirdi. 
+                  2018'de ABD dışı yapımların payı %63,6'ya fırladı; 2021 itibarıyla küresel içerik üstünlüğü kalıcı hale geldi.
+                </p>
+                <div class="step-insight">
+                  <span>🌍 ABD payı %69,5'ten %41,9'a inerken; dünya yapımları %58,1'e yükseldi.</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Step 6 -->
+            <article class="step" data-step="5">
+              <div class="step-card">
+                <span class="step-number">Adım 06 / 06</span>
+                <h3 class="step-title">Lisans Deposundan Orijinal Fabrikaya: Gecikme Sıfırlandı</h3>
+                <p class="step-text">
+                  İlk yıllarda Netflix stüdyoların sinema salonlarında ve DVD pazarında ömrünü tüketmiş 5-10 yıllık 
+                  eski filmlerini lisanslayan bir dijital kütüphaneydi. 2018 sonrasında ise eklenen yapımların 
+                  <strong>%55'inden fazlası üretildiği yıl veya ertesi yıl doğrudan platforma giren</strong> Netflix Orijinal 
+                  yapımlarından oluşuyor. Yayın gecikmesi sıfırlanarak anlık dijital tüketim standardı inşa edildi.
+                </p>
+                <div class="step-insight">
+                  <span>⚡ Medyan yayın gecikmesi 1 yıla inerek Netflix'i anında üretim merkezine dönüştürdü.</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Right: Sticky Visualization Container -->
+          <aside class="scrolly-sticky" aria-label="İnteraktif Görselleştirme Sahnesi">
+            <div class="chart-header">
+              <h3 id="sticky-headline" class="chart-headline">Kataloğa Yıllık Eklenen İçerik Hacmi</h3>
+              <p id="sticky-subheadline" class="chart-subheadline">Kaggle Veri Seti | 2008–2021 Zaman Serisi</p>
+            </div>
+            
+            <div class="chart-stage" id="sticky-chart-stage">
+              <!-- D3.js renders SVG dynamically here -->
+            </div>
+
+            <div class="chart-footer">
+              <span id="sticky-source">Gösterge: Toplam Yapım Adedi</span>
+              <span>Netflix Veri Hikâyesi · D3.js & Scrollama</span>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. DERİNLEMESİNE GÖRSELLEŞTİRMELER (BÖLÜM 2 & 3: ÜLKELER VE TÜRLER)
+         ====================================================================== -->
+    <section class="section-deepdive" id="deepdive-section">
+      <div class="container">
+        <div class="context-wrapper" style="text-align: center; margin-bottom: 2rem;">
+          <div class="section-tag">Karşılaştırmalı Analiz</div>
+          <h2 class="section-title">Coğrafya ve Türler: Netflix Nerede, Ne Üretiyor?</h2>
+          <p>
+            ABD dışındaki üretim merkezleri homojen bir dağılım göstermemektedir. 
+            Hindistan devasa sinema geleneğiyle filmlere odaklanırken, Güney Kore ve Japonya dizi formatıyla öne çıkmaktadır.
+          </p>
+        </div>
+
+        <div class="deepdive-grid">
+          <!-- Deep Dive 1 -->
+          <div class="deepdive-card">
+            <div class="deepdive-card-header">
+              <h3>En Çok İçerik Üreten 12 Ülke ve Türkiye</h3>
+              <p>Türkiye 113 yapımla ilk 15 ülke arasında yer alırken, film ağırlığı (%72) ile Hindistan modeline benzemektedir.</p>
+            </div>
+            <div class="deepdive-chart-container" id="deepdive-countries-chart"></div>
+            <div class="chart-footer" style="margin-top: 1rem;">
+              <span>Kaynak: Netflix Kataloğu | Birim: Başlık Adedi</span>
+              <span>🇹🇷 Türkiye Sarı ile Vurgulanmıştır</span>
+            </div>
+          </div>
+
+          <!-- Deep Dive 2 -->
+          <div class="deepdive-card">
+            <div class="deepdive-card-header">
+              <h3>Kataloğun Zirvesindeki 10 İçerik Türü</h3>
+              <p>"Uluslararası Filmler" ve "Dramalar" platformun en dominant kategorilerini oluşturmaktadır.</p>
+            </div>
+            <div class="deepdive-chart-container" id="deepdive-genres-chart"></div>
+            <div class="chart-footer" style="margin-top: 1rem;">
+              <span>Kaynak: listed_in Kategorizasyonu | Kırmızı: Film, Mavi: Dizi</span>
+              <span>Çoklu Kategori Eşleştirmesi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. OKUYUCU KEŞFİ (INTERACTIVE READER EXPLORER)
+         ====================================================================== -->
+    <section class="section-explorer" id="explorer-section">
+      <div class="container">
+        <div class="explorer-header">
+          <div class="section-tag">Okuyucu Keşfi</div>
+          <h2 class="section-title">Kendi Veri İncelemenizi Yapın: 8.807 Başlık Arasında Filtreleyin</h2>
+          <p>
+            İlgilendiğiniz ülkeyi, içerik türünü ve yapım yılını belirleyin. 
+            Seçtiğiniz kriterlerin platformdaki hacmini, ortalama süresini ve örnek yapımlarını canlı olarak keşfedin.
+          </p>
+        </div>
+
+        <!-- Explorer Controls -->
+        <div class="explorer-controls" role="search" aria-label="Katalog Filtreleme Paneli">
+          <div class="control-group">
+            <label for="filter-country">Ülke Seçin</label>
+            <select id="filter-country" class="control-select">
+              <option value="all">🌍 Tüm Ülkeler</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="filter-type">İçerik Türü</label>
+            <select id="filter-type" class="control-select">
+              <option value="all">Tümü (Film & Dizi)</option>
+              <option value="Movie">Yalnızca Filmler</option>
+              <option value="TV Show">Yalnızca TV Dizileri</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="filter-year">Minimum Yapım Yılı: <span id="slider-year-val" class="slider-val">2000</span></label>
+            <div class="slider-wrapper">
+              <input type="range" id="filter-year" min="1990" max="2021" value="2000" step="1">
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label for="filter-search">Başlık veya Tür Ara</label>
+            <input type="text" id="filter-search" class="control-input" placeholder="Örn: Kulüp, Roma, Comedy...">
+          </div>
+        </div>
+
+        <!-- Explorer KPIs -->
+        <div class="explorer-kpis">
+          <div class="explorer-kpi">
+            <span class="val red" id="exp-total-count">-</span>
+            <span class="lbl">Eşleşen Başlık</span>
+          </div>
+          <div class="explorer-kpi">
+            <span class="val" id="exp-movie-pct">-</span>
+            <span class="lbl">Film Oranı</span>
+          </div>
+          <div class="explorer-kpi">
+            <span class="val" id="exp-avg-duration">-</span>
+            <span class="lbl">Ortalama Film Süresi</span>
+          </div>
+          <div class="explorer-kpi">
+            <span class="val red" id="exp-s1-pct">-</span>
+            <span class="lbl">1. Sezonluk Dizi Oranı</span>
+          </div>
+        </div>
+
+        <!-- Layout: Chart Left + Title List Right -->
+        <div class="explorer-grid-layout">
+          <div class="explorer-chart-box">
+            <div id="explorer-chart-stage" style="width: 100%; height: 100%;"></div>
+            <div class="chart-footer">
+              <span>Birim: Kataloğa Giriş Adedi</span>
+              <span>Canlı D3.js Güncellemesi</span>
+            </div>
+          </div>
+
+          <div class="explorer-results-box">
+            <h3 style="font-size: 1.15rem; color: #fff; margin-bottom: 0.25rem;">Eşleşen Örnek Yapımlar</h3>
+            <p style="font-size: 0.75rem; color: #8C8C9A; margin-bottom: 0.5rem;">İlk 40 eşleşme listelenmektedir.</p>
+            <div class="results-list" id="explorer-results-list">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. SONUÇ (PEKİ NE OLMUŞ?)
+         ====================================================================== -->
+    <section class="section-conclusion">
+      <div class="container">
+        <div class="context-wrapper">
+          <div class="section-tag">Sonuç ve Çıkarımlar</div>
+          <h2 class="section-title">Peki Ne Olmuş? Verinin Bize Gösterdiği 3 Büyük Hakikat</h2>
+          <p class="lead-p">
+            Netflix'in 8.807 yapımlık devasa veri seti, sadece bir şirketin büyüme grafiğini değil; 
+            insanoğlunun hikâye tüketme biçimindeki tektonik kırılmayı belgelemektedir.
+          </p>
+        </div>
+
+        <div class="conclusion-cards">
+          <div class="conclusion-card">
+            <div class="conclusion-card-icon">⏱️</div>
+            <h3>1. Algoritmik Dikkat Ekonomisi</h3>
+            <p>
+              Filmlerin 20 yılda 27 dakika kısalması rastlantı değildir. İzleyicinin odak süresi azaldıkça, 
+              algoritma filmin sonuna kadar izlenme (completion) oranını ödüllendirmekte; yönetmenler 90 dakikayı 
+              aşmayan daha hızlı, yoğunlaştırılmış anlatılara yönelmektedir.
+            </p>
+          </div>
+
+          <div class="conclusion-card">
+            <div class="conclusion-card-icon">📉</div>
+            <h3>2. "Tek Sezon" ve Güvensizlik Paradoksu</h3>
+            <p>
+              Dizilerin %67'sinin 2. sezonu görememesi, streaming modelinin acımasız finansal mantığını açığa vurmaktadır. 
+              Platform için yeni bir dizi başlatıp yeni abone çekmek, eski bir diziyi sürdürmekten daha ucuzdur. Ancak bu durum, 
+              izleyicilerde "nasılsa iptal edilecek" korkusuyla yeni dizilere başlamama alışkanlığı yaratmaktadır.
+            </p>
+          </div>
+
+          <div class="conclusion-card">
+            <div class="conclusion-card-icon">🌐</div>
+            <h3>3. Hollywood Tekelinin Kırılışı</h3>
+            <p>
+              ABD'nin payının %69,5'ten %36,4'e gerilemesi, sinema tarihinin en büyük desantralizasyonudur. 
+              Squid Game, La Casa de Papel veya Türkiye'den Kulüp ve Bir Başkadır gibi yapımlar, küresel başarının artık 
+              yalnızca Los Angeles'tan çıkmak zorunda olmadığını kanıtlamıştır.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. YÖNTEM (METHODOLOGY) BÖLÜMÜ
+         ====================================================================== -->
+    <section class="section-methodology">
+      <div class="container">
+        <div class="context-wrapper">
+          <div class="section-tag">Metodoloji & Şeffaflık</div>
+          <h2 class="section-title">Veri Kaynağı, Temizleme Adımları ve Bilimsel Yaklaşım</h2>
+        </div>
+
+        <div class="method-details">
+          <div class="method-block">
+            <h3>Veri Seti ve Temizleme Adımları</h3>
+            <ul>
+              <li><strong>Veri Kaynağı:</strong> Kaggle "Netflix Movies and TV Shows Dataset" (Shivam Bansal).</li>
+              <li><strong>Erişim Tarihi & Lisans:</strong> Ekim 2026 | Lisans: CC0: Public Domain (Serbest yeniden kullanım).</li>
+              <li><strong>Kapsam:</strong> 1925–2021 yapımı 8.807 başlık; 2008–2021 platforma eklenme tarihleri.</li>
+              <li><strong>Temizleme Kararları:</strong> <code>date_added</code> baş ve son boşluklar temizlenerek datetime formatına dönüştürüldü. 10 eksik tarih satırı zaman serisi analizinde hariç tutuldu.</li>
+              <li><strong>Süre Ayrıştırması:</strong> <code>duration</code> değişkeni regex yardımıyla filmler için dakika (<code>duration_min</code>), diziler için sezon (<code>seasons</code>) olarak iki ayrı sayısal sütuna ayrıştırıldı.</li>
+              <li><strong>Hatalı Değer Düzeltmesi:</strong> Louis C.K. özel şovlarında rating sütununa kayan süreler ait oldukları sütunlara aktarıldı.</li>
+            </ul>
+          </div>
+
+          <div class="method-block">
+            <h3>Teknoloji Yığını ve Yapay Zekâ Beyanı</h3>
+            <ul>
+              <li><strong>Analiz & İşleme:</strong> Python (pandas, numpy, matplotlib) ve Jupyter Notebook.</li>
+              <li><strong>Arayüz & Scrollytelling:</strong> Vanilla JavaScript (ES6+), D3.js v7, Scrollama.js, HTML5, CSS3.</li>
+              <li><strong>Notebook Doğrulaması:</strong> <code>notebooks/analiz.ipynb</code> dosyası baştan sona hatasız ("Restart & Run All") çalışmaktadır.</li>
+              <li><strong>Açık Kaynak Kodlar:</strong> Tüm proje kodları ve veri setleri GitHub deposunda herkese açık olarak paylaşılmıştır.</li>
+              <li><strong>Yapay Zekâ Kullanım Beyanı:</strong> Bu projede kod şablonlarının oluşturulması, D3.js animasyon döngülerinin kurulması ve dokümantasyon taslaklarının hazırlanmasında yapay zekâ (Google Gemini / Antigravity AI) araç olarak kullanılmıştır. Analitik sorgulama, anlatı tasarımı ve veri yorumu şahsıma aittir.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       8. YAZAR VE İLETİŞİM (AUTHOR & FOOTER)
+       ====================================================================== -->
+  <footer class="footer-author">
+    <div class="container">
+      <div class="author-card">
+        <div class="author-avatar" aria-hidden="true">M</div>
+        <div class="author-info">
+          <h3>Mahir</h3>
+          <div class="author-role">Büyük Veri Analisti & Kullanıcı Arayüzü Tasarımcısı</div>
+          <p class="author-bio">
+            Veriyi salt tablolardan çıkarıp okuyucuyla nefes alan dinamik hikâyelere dönüştürmeye odaklanıyorum. 
+            Bu çalışma, Kullanıcı Arayüzü Tasarımı dersi kapsamında hazırlanmış bireysel scrollytelling projesidir.
+          </p>
+          <div class="author-links">
+            <a href="https://github.com/mahir/netflix-scrollytelling" class="btn btn-primary" target="_blank" rel="noopener">
+              📂 GitHub Deposu
+            </a>
+            <a href="https://mahir.github.io/" class="btn btn-secondary" target="_blank" rel="noopener">
+              ← Portfolyoma Dön
+            </a>
+            <a href="https://linkedin.com/in/mahir" class="btn btn-secondary" target="_blank" rel="noopener">
+              🔗 LinkedIn
+            </a>
+            <a href="mailto:mahir@example.com" class="btn btn-secondary">
+              ✉️ İletişim
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Mahir · Kullanıcı Arayüzü Tasarımı · Büyük Veri Analistliği Programı Proje Ödevi.</p>
+        <p style="margin-top: 0.25rem; font-size: 0.75rem;">Veri Kaynağı: Shivam Bansal (Kaggle CC0) · D3.js v7 & Scrollama.js ile geliştirilmiştir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Vendor Libraries: Local first, with CDN fallback -->
+  <script src="js/vendor/d3.min.js"></script>
+  <script>
+    if (typeof d3 === 'undefined') {
+      document.write('<script src="https://cdn.jsdelivr.net/npm/d3@7"><\/script>');
+    }
+  </script>
+  <script src="js/vendor/scrollama.min.js"></script>
+  <script>
+    if (typeof scrollama === 'undefined') {
+      document.write('<script src="https://unpkg.com/scrollama@3.2.0/build/scrollama.min.js"><\/script>');
+    }
+  </script>
+  
+  <!-- Embedded Data for Instant Local file:// Execution (No CORS restriction) -->
+  <script src="js/data.js"></script>
+
+  <!-- Project Scripts -->
+  <script src="js/charts.js"></script>
+  <script src="js/scrolly.js"></script>
+  <script src="js/explorer.js"></script>
+</body>
+</html>

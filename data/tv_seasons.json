@@ -1,0 +1,37 @@
+[
+  {
+    "category": "1. Sezon", 
+    "count": 1793, 
+    "percentage": 67.0, 
+    "highlight": true, 
+    "desc": "Her 3 diziden 2'si ilk sezonda son buluyor."
+  }, 
+  {
+    "category": "2. Sezon", 
+    "count": 425, 
+    "percentage": 15.9, 
+    "highlight": false, 
+    "desc": "İkinci sezonu görebilen azınlık."
+  }, 
+  {
+    "category": "3. Sezon", 
+    "count": 199, 
+    "percentage": 7.4, 
+    "highlight": false, 
+    "desc": "Maliyetlerin katlandığı kritik eşik."
+  }, 
+  {
+    "category": "4. Sezon", 
+    "count": 95, 
+    "percentage": 3.6, 
+    "highlight": false, 
+    "desc": "Sadık hayran kitlesi olan yapımlar."
+  }, 
+  {
+    "category": "5+ Sezon", 
+    "count": 164, 
+    "percentage": 6.1, 
+    "highlight": false, 
+    "desc": "Kataloğun yalnızca %3,4'ü bu kulüpte."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "year_added": 2014, 
+    "median_lag_years": 0.0, 
+    "mean_lag_years": 3.0, 
+    "fresh_content_pct": 83.3
+  }, 
+  {
+    "year_added": 2015, 
+    "median_lag_years": 0.0, 
+    "mean_lag_years": 1.3, 
+    "fresh_content_pct": 81.7
+  }, 
+  {
+    "year_added": 2016, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 3.0, 
+    "fresh_content_pct": 65.3
+  }, 
+  {
+    "year_added": 2017, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 3.9, 
+    "fresh_content_pct": 59.7
+  }, 
+  {
+    "year_added": 2018, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 4.1, 
+    "fresh_content_pct": 54.7
+  }, 
+  {
+    "year_added": 2019, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 5.3, 
+    "fresh_content_pct": 51.5
+  }, 
+  {
+    "year_added": 2020, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 4.7, 
+    "fresh_content_pct": 55.4
+  }, 
+  {
+    "year_added": 2021, 
+    "median_lag_years": 1.0, 
+    "mean_lag_years": 5.8, 
+    "fresh_content_pct": 50.8
+  }
+]

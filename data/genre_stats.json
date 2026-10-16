@@ -1,0 +1,86 @@
+[
+  {
+    "genre": "International Movies", 
+    "count": 2752, 
+    "movie_count": 2752, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "Dramas", 
+    "count": 2427, 
+    "movie_count": 2427, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "Comedies", 
+    "count": 1674, 
+    "movie_count": 1674, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "International TV Shows", 
+    "count": 1351, 
+    "movie_count": 0, 
+    "tv_count": 1351, 
+    "type_dominant": "TV Show"
+  }, 
+  {
+    "genre": "Documentaries", 
+    "count": 869, 
+    "movie_count": 869, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "Action & Adventure", 
+    "count": 859, 
+    "movie_count": 859, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "TV Dramas", 
+    "count": 763, 
+    "movie_count": 0, 
+    "tv_count": 763, 
+    "type_dominant": "TV Show"
+  }, 
+  {
+    "genre": "Independent Movies", 
+    "count": 756, 
+    "movie_count": 756, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "Children & Family Movies", 
+    "count": 641, 
+    "movie_count": 641, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "Romantic Movies", 
+    "count": 616, 
+    "movie_count": 616, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }, 
+  {
+    "genre": "TV Comedies", 
+    "count": 581, 
+    "movie_count": 0, 
+    "tv_count": 581, 
+    "type_dominant": "TV Show"
+  }, 
+  {
+    "genre": "Thrillers", 
+    "count": 577, 
+    "movie_count": 577, 
+    "tv_count": 0, 
+    "type_dominant": "Movie"
+  }
+]
